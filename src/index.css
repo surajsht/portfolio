@@ -60,3 +60,25 @@ li {
     max-width: calc(100% - 2rem);
   }
 }
+
+.section-header {
+  text-align: center;
+}
+
+.section-title {
+  position: relative;
+  display: inline-block;
+  font-size: 3.2rem;
+  padding-bottom: 1.6rem;
+}
+
+.section-title::before {
+  position: absolute;
+  content: "";
+  left: 50%;
+  bottom: 0;
+  translate: -50% 0;
+  height: 0.4rem;
+  width: 80%;
+  background-color: #000;
+}
