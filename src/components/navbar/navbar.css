@@ -1,0 +1,30 @@
+.nav-content,
+.menu-item-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-content {
+  padding: 1.6rem 0;
+}
+
+.logo {
+  font-size: 2.5rem;
+}
+
+.menu-item-container {
+  gap: 1.6rem;
+}
+
+@media (max-width: 767px) {
+  .menu-item-container {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  #offcanvas-menu {
+    display: none;
+  }
+}

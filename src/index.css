@@ -3,3 +3,49 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Roboto Slab", serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.wrapper {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+@media (max-width: 1199px) {
+  .wrapper {
+    max-width: 960px;
+  }
+}
+
+@media (max-width: 991px) {
+  .wrapper {
+    max-width: 720px;
+  }
+}
+
+@media (max-width: 767px) {
+  .wrapper {
+    max-width: 540px;
+  }
+}
+
+@media (max-width: 575px) {
+  .wrapper {
+    max-width: calc(100% - 2rem);
+  }
+}
