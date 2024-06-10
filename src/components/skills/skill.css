@@ -3,7 +3,6 @@
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  margin-top: 6.4rem;
 }
 
 @media (max-width: 767px) {
