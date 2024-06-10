@@ -61,6 +61,22 @@ li {
   }
 }
 
+.section-spacing {
+  margin-bottom: 10rem;
+}
+
+@media (max-width: 767px) {
+  .section-spacing {
+    margin-bottom: 8rem;
+  }
+}
+
+@media (max-width: 575px) {
+  .section-spacing {
+    margin-bottom: 6rem;
+  }
+}
+
 .section-header {
   text-align: center;
 }

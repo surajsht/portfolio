@@ -1,23 +1,11 @@
-.hero {
-  padding: 16rem 0;
+#home {
+  padding: 8rem 0 0;
   text-align: center;
 }
 
-@media (max-width: 1199px) {
-  .hero {
-    padding: 12rem 0;
-  }
-}
-
-@media (max-width: 991px) {
-  .hero {
-    padding: 8rem 0;
-  }
-}
-
 @media (max-width: 767px) {
-  .hero {
-    padding: 4rem 0;
+  #home {
+    padding: 4rem 0 0;
   }
 }
 
